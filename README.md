@@ -2,6 +2,7 @@ CoroutinesLearning
 ==================
 
 Had difficulties implementing Coroutines per this site http://unitypatterns.com/introduction-to-coroutines/ 
+Can see the code with syntax highlighting [here](https://gist.github.com/nastajus/e420713c2aa3be04b8cb)
 
 Problems
 ========
