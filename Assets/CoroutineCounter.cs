@@ -19,11 +19,11 @@ public class CoroutineCounter : MonoBehaviour {
 		//StartCoroutine(Countdown());				//works
 	}
 
+	//I THOUGHT MAKING MOVE MIGHT HAVE A SIDE-EFFECT OF CORRECTING PROBLEMS WHERE COROUTINES AREN'T WORKING CORRECTLY.
 	void Update(){
 		transform.position += new Vector3(0, 0, .1f);
 	}
 
-	//I THOUGHT MAKING MOVE MIGHT HAVE A SIDE-EFFECT OF CORRECTING PROBLEMS WHERE COROUTINES AREN'T WORKING CORRECTLY.
 	IEnumerator Countdown(){
 		for (float timer = 3; timer >=0; timer -= Time.deltaTime)
 		     yield return 0;
